@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TeamDzX/drawpad-mcp",
+  "title": "DrawPad",
+  "description": "Design 3D-printable keychains, cookie cutters, signs and parts: watertight STL plus preview. macOS.",
+  "repository": { "url": "https://github.com/TeamDzX/drawpad-mcp", "source": "github" },
+  "websiteUrl": "https://www.opticell-limited.com/drawpad",
+  "version": "2.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@opticell/drawpad-mcp",
+      "version": "2.0.0",
+      "packageArguments": [{ "type": "positional", "value": "mcp" }],
+      "transport": { "type": "stdio" }
+    },
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/TeamDzX/drawpad-mcp/releases/download/v2.0.0/DrawPad.mcpb",
+      "fileSha256": "SET_AT_RELEASE",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

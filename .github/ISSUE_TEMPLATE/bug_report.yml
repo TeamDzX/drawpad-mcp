@@ -1,0 +1,22 @@
+name: Bug report
+description: A design that came out wrong, or a tool that failed
+labels: [bug]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: What you asked for
+      description: The request you gave Claude, e.g. "a 60 mm star cookie cutter".
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Attach the preview PNG or STL if you can.
+    validations: { required: true }
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: "DrawPad MCP 2.0.0 · macOS 15 · Claude Desktop / Claude Code"
+    validations: { required: true }
