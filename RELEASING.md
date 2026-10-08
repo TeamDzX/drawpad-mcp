@@ -10,3 +10,5 @@ when it accepts `server.json`.
 4. Put `shasum -a 256 dist/DrawPad.mcpb` into `fileSha256` in `server.json`,
    then commit.
 5. Make the repo public, then run **Actions → Publish to MCP Registry**.
+6. Add a DrawPad row to the MCP servers table in
+   [opticell-mcp](https://github.com/TeamDzX/opticell-mcp) and in the TeamDzX profile README.
