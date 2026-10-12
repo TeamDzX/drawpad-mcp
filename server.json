@@ -17,7 +17,7 @@
     {
       "registryType": "mcpb",
       "identifier": "https://github.com/TeamDzX/drawpad-mcp/releases/download/v2.0.0/DrawPad.mcpb",
-      "fileSha256": "SET_AT_RELEASE",
+      "fileSha256": "2b28c35be61eed0479ebf31f5160aa0b8e5c98ebc0d7e9f3bf160d42771e79c6",
       "transport": { "type": "stdio" }
     }
   ]
